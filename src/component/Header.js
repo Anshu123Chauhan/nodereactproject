@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react'
-import {Link,useNavigate} from "react-router-dom"
+import React from 'react'
+import {Link} from "react-router-dom"
 import "../style/component/Header.css";
 
 const Header = () => {
-  const navigate=useNavigate();
+  
   let auth=localStorage.getItem("userdata");
   const logout=()=>{
     localStorage.removeItem("userdata");
