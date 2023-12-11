@@ -1,0 +1,14 @@
+.header{
+    display: inline-block;
+}
+li{
+    display: inline;
+    float: left;
+    padding: 10px 20px;
+}
+.mainheader
+{
+    margin: auto;
+    width: 100%;
+    background-color: #700199;
+}
