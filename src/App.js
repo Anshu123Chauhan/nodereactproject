@@ -20,6 +20,7 @@ function App() {
         <BrowserRouter>
         <Header />
         <Routes>
+          
           <Route element={<PrivateComponent />}>
           <Route path="/" element={<ProductList />}/>
           <Route path="/add" element={<AddProducts />}/>
